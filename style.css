@@ -11,7 +11,7 @@ body {
 
 #zmul-logo {
     position: relative;
-    top: 100px;
+    top: 0px;
     left: 100px;
 }
 
@@ -22,7 +22,7 @@ body {
 
 #zmul-text3 {
     position: absolute;
-    top: 80px;
+    top: 0;
     left: 770px;
     font-size: 70px;
     transform: scaleY(1.0);
@@ -39,7 +39,7 @@ body {
     font-family: "Times New Roman", Times, serif;
     color: #00C500;
     font-size: 40px;
-    top: 200px;
+    top: 100px;
     left: 200px;
     position: relative;
 }
@@ -97,7 +97,7 @@ body {
 
 #tab {
     position: absolute;
-    top: 170px;
+    top: 100px;
     left: 800px;
     width: 500px;
     height: 500px;
