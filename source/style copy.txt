@@ -1,0 +1,181 @@
+html {
+    width: 1000px;
+    height: 800px;
+}
+body {
+    min-height: 100%;
+    background-color: rgb(219, 219, 219);
+}
+
+#zmul-text2 {
+    font-family: "Times New Roman", Times, serif;
+    color: #00C500;
+    font-size: 40px;
+    top: 300px;
+    left: 200px;
+    position: relative;
+}
+
+#zmul-logo {
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+
+#zmul-img {
+    width: 500px;
+    z-index: 1;
+}
+
+#zmul-text {
+    position: absolute;
+    top: 400px;
+    left: 65px;
+    font-size: 150px;
+    transform: scaleY(0.8);
+    font-family: 'Georgia', serif;
+    background: linear-gradient(90deg, #00C500, #003900);
+    background-clip: text;
+    filter: drop-shadow(-5px -5px white);
+    color: transparent;
+    display: inline-block;
+    z-index: 2;
+}
+
+#zmul-circle {
+    top: 5px;
+    left: 0px;
+    position: absolute;
+    background: radial-gradient(circle, #00C500 10%, #51f051 50%, #ffffff 70%);
+    /*background-color: #00C500;*/
+    width: 500px;
+    height: 480px;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+#zmul-circle2 {
+    top: 5px;
+    left: 50px;
+    position: absolute;
+    background: radial-gradient(circle at 50% 10%, #00ff00 10%, transparent 90%);
+    /*background-color: #00C500;*/
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+#zmul-circle3 {
+    top: 5px;
+    left: 0px;
+    position: absolute;
+    background: radial-gradient(circle, transparent 10%, transparent 50%, #ffffff 70%);
+    /*background-color: #00C500;*/
+    width: 500px;
+    height: 480px;
+    border-radius: 50%;
+    z-index: 2;
+}
+
+#tab {
+    position: absolute;
+    top: 200px;
+    left: 700px;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(157, 157, 157);
+    /*border: #00C500 5px solid;*/
+    border-image: linear-gradient(#00C500, #059a05) 30;
+    border-width: 5px;
+    border-style: solid;
+}
+
+#username {
+    position: relative;
+    color: rgb(212, 77, 213);
+    font-family: 'Georgia', serif;
+    font-size: 50px;
+    top: 20px;
+    left: 100px;
+}
+
+#username-input {
+    position: relative;
+    height: 50px;
+    width: 300px;
+    top: -50px;
+    left: -10px;
+    border: 2px solid black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+}
+
+#password {
+    position: relative;
+    color: rgb(212, 77, 213);
+    font-family: 'Georgia', serif;
+    font-size: 50px;
+    top: -50px;
+    left: 100px;
+}
+
+#password-input {
+    position: relative;
+    height: 50px;
+    width: 300px;
+    top: -50px;
+    left: -10px;
+    border: 2px solid black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+}
+
+#play-btn2 {
+    position: absolute;
+    top: 440px;
+    left: 135px;
+    color: transparent;
+    text-shadow: -7px 0px 15px rgb(0, 0, 0, 0.5);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100px;
+    transform: scaleY(0.7);
+    background-color: transparent;
+    border: transparent;
+    z-index: 3;
+}
+
+#play-btn {
+    position: absolute;
+    top: 440px;
+    left: 135px;
+    color: rgb(212, 77, 213);
+    font-family: "Times New Roman", Times, serif;
+    font-size: 100px;
+    transform: scaleY(0.7);
+    background-color: transparent;
+    border: transparent;
+    z-index: 2;
+}
+
+
+#play-bck {
+    position: relative;
+    background-color: #003900;
+    width: 350px;
+    height: 130px;
+    top: 5px;
+    left: 80px;
+    border-radius: 50%;
+    border: #059a05 5px solid;
+    background: linear-gradient(90deg, #059a05, #00C500, #059a05, #003900, black);
+    z-index: 1; 
+}
+
+
+#play-btn:hover {
+    border-radius: 50%;
+    width: 350px;
+    height: 130px;
+    background-color: black;
+}
