@@ -1,0 +1,19 @@
+@media (min-width: 320px) and (max-width: 340px) {
+    .fatherContents {
+        position: fixed;
+        left: 0%;
+        transform: translateX(0%);
+    }
+}
+
+@media (min-width: 350px) and (max-width: 999px) {
+    .fatherContents {
+        position: fixed;
+        left: 27%;
+        transform: translateX(-60%);
+    }
+}
+  
+@media (min-width: 1000px) {
+
+}
