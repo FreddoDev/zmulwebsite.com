@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var myDiv3 = document.getElementById("zmul-text3");
     var toggleButton = document.getElementById("play-btn");
     var video = document.getElementById("video");
+    var music = document.getElementById("music")
 
     toggleButton.addEventListener("click", function() {
         const username = myDiv2.querySelector('#username-input').value;  // Use querySelector to get input values
@@ -14,6 +15,9 @@ document.addEventListener("DOMContentLoaded", function() {
             myDiv.style.display = myDiv.style.display === "none" ? "block" : "none";
             myDiv2.style.display = myDiv2.style.display === "none" ? "block" : "none";
             myDiv3.style.display = myDiv3.style.display === "none" ? "block" : "none";
+
+            music.pause()
+
             video.style.display = "block";  // Ensure video is always displayed
             video.autoplay = true;
             video.setAttribute("preload", "auto");

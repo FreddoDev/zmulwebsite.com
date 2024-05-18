@@ -4,8 +4,16 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobileStyle.css">
     <script src="script/video.js"></script>
+    <script src="script/music.js"></script>
 </head>
 <body>
+<div id="ProcedureContent">
+    <div id="PC-box">
+        <p>Wanna play?</p>
+        <button id="PC-button">Yes.</button>
+    </div>
+</div>
+
 <div class="fatherContents">
 <div id="zmul">
     <div id="zmul-text3">mel en des. go ar &#58;&#41;&#41;&#41;</div>
@@ -39,7 +47,7 @@
 </div>
 </div>
 
-<audio src="media/audio/zmul.mp3" autoplay></audio>
+<audio id="music" src="media/audio/zmul.mp3" preload="none"></audio>
 <video id="video" type="video/mp4" src="media/video/zmul.mp4" preload="none"></video>
 </body>
 </html>
