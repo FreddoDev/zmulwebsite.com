@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const username = myDiv2.querySelector('#username-input').value;  // Use querySelector to get input values
         const password = myDiv2.querySelector('#password-input').value;
 
-        if (username === "za0za_0" && password === "***********") {
+        if (username === "za0za_0" && password === "djgyroza0") {
             // Toggle the display property using a cleaner approach
             myDiv.style.display = myDiv.style.display === "none" ? "block" : "none";
             myDiv2.style.display = myDiv2.style.display === "none" ? "block" : "none";

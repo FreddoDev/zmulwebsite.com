@@ -9,7 +9,7 @@ body {
 }
 
 #ProcedureContent {
-    z-index: 3;
+    z-index: 5;
     position: absolute;
     top: 0;
     left: 0;
@@ -37,13 +37,17 @@ body {
     z-index: 4;
     text-align: center;
     font-size: 50px;
-    top: 30%;
-    left: 35%;
+    top: 20%;
+    left: 30%;
     background-color: black;
     color: white;
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 450px;
     border: white 5px solid;
+}
+
+#PC-box p {
+    font-size: 30px;
 }
 
 #PC-box button {
@@ -197,7 +201,36 @@ body {
     left: -10px;
     border: 2px solid black;
     font-family: "Times New Roman", Times, serif;
-    font-size: 45px;
+    font-size: 30px;
+}
+
+#contentMask {
+    position: fixed;
+    z-index: 3;
+    top: 53%;
+    left: 58.50%;
+    width: 290px;
+    height: 45px;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    background-color: white;
+}
+
+#contentMask::after {
+    content: "|";
+    animation: CM-animation 2s ease infinite;
+}
+
+@keyframes CM-animation {
+    0% {
+        content: " ";
+    }
+    100% {
+        content: "|";
+    }
 }
 
 #play-btn {
